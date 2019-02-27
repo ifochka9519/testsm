@@ -1,7 +1,7 @@
 @extends("layouts.site")
 
-@section('head') StructA @endsection
-@section('title') StructA @endsection
+@section('head') StructB @endsection
+@section('title') StructB @endsection
 
 @section('content')
 
