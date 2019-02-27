@@ -18,3 +18,6 @@ Route::get('/', function () {
 
 Route::resource('structA', 'StructAController');
 Route::resource('structB', 'StructBController');
+
+Route::get('/structsA', 'XMLController@indexA')->name('structsA');
+Route::get('/structsB', 'XMLController@indexB')->name('structsB');

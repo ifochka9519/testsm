@@ -6,6 +6,7 @@
 @section('content')
 
     <button class="btn btn-outline-info m-3"><a href="{{route('structB.create')}}">Create new</a></button>
+    <button class="btn btn-outline-info m-3"><a href="{{route('structsB')}}">Create XML</a></button>
 
     <div class="table-hover table-bordered m-5">
         <table class="table">
